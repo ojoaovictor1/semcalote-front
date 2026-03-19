@@ -8,13 +8,105 @@
     text-decoration: none;
 
 }
+body{
+    background-color: rgb(25, 27, 31);
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
     height: 100px;
-    background-color: blue;
+    background-color: rgb(60, 60, 70);
+    border-radius: 15px;
+    width: 96%;
+}
+#menu{
+    display: flex;
+    align-items: center;
+
+}
+#menu ul{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+#menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+#menu ul li a:hover{
+    border-bottom: 1px solid #F0E5B9;
+    transition: all 0.3s ease-in-out;
+}
+#meio{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    align-items: center;
+    /* background-color: rgb(185, 14, 14); */
+    height: 70%;
+    width: 96%;
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    padding: 20px;
+    background-color: rgb(60, 60, 70);
+    border-radius: 15px;
+
+    width: 22%;
+    height: 95%;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #F0E5B9;
+}
+#lista_jogos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+#lista_jogos ul{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(228, 21, 21);
+}
+#lista_jogos ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#cont{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    padding: 20px;
+    background-color: rgb(60, 60, 70);
+    border-radius: 15px;
+    width: 77%;
+    height: 95%;
+}
+#roda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+    background-color: rgb(60, 60, 70);
+    border-radius: 15px;
+    width: 96%;
 }
 
 
